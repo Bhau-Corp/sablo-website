@@ -9,10 +9,10 @@ import Button from '../components/ui/Button';
 
 const AboutSection = () => {
   return (
-    <div className="pt-12 md:pt-16 lg:pt-20 lg:pl-20">
+    <div className="pt-12 md:pt-16 lg:pt-20">
       <Container>
         <Section>
-          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start md:pl-4">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             {/* Left Column */}
             <div className="flex flex-col">
               {/* About Sablo label */}
